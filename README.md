@@ -1,8 +1,6 @@
 # 工程概论作业2——查重算法
 ****GitHub仓库****：[点击跳转](https://github.com/syd-potato/Duplicate-checking)
 
-[TOC]
-
 # 作业信息
 | 这个作业属于哪个课程 | [工程概论](https://edu.cnblogs.com/campus/jmu/ComputerScience21) |
 | ----------------- |:---------------: |
@@ -72,10 +70,12 @@ IDE&nbsp;:&emsp;IDEA 2022
 | writeResult | 将相似度结果写入文件 |
 
 ## 程序流程
-![输入图片说明](/imgs/2023-09-20/kETFHy6CVzhIK14K.png)
+![Uploading 流程图.png…]()
+
 
 # 性能分析
-![输入图片说明](/imgs/2023-09-20/XpIhNCV9KNIFGdEr.png)
+![Uploading 性能分析.png…]()
+
 可以看到，程序的大部分资源用于分词以及向量计算时创建和调用数组上，以及使用HanLP进行中文文章分词。由于是对两篇文章进行分词和向量计算，故可以利用多线程运算提高效率。
 
 # 单元测试
