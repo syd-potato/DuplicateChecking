@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/main_jar</output-path>
+    <root id="archive" name="main.jar">
+      <element id="module-output" name="main" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.8.4/hanlp-portable-1.8.4.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: com.hankcs:hanlp:portable-1.8.4" />
+    </root>
+  </artifact>
+</component>
